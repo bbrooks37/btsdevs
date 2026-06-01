@@ -6,6 +6,7 @@ const projects = [
   { name: "Ryley Design", img: "/rdc.png", link: "https://ryleydesigns.com/" },
   { name: "ETF Investing", img: "/ETF.png", link: "https://etf-investing.netlify.app/" },
   { name: "Bible Kiosk", img: "/bible.png", link: "https://bible-kiosk.netlify.app/" },
+  { name: "Giphy Party Fun", img: "/giphy.png", link: "https://giphypartyfun.netlify.app/" },
 ];
 
 export default function PortfolioSection() {
