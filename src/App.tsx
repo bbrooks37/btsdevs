@@ -1,6 +1,7 @@
 // src/App.tsx
 import { useState } from 'react';
 import PricingSection from './components/PricingSection';
+import PortfolioSection from './components/PortfolioSection';
 
 export default function App() {
   const [showContact, setShowContact] = useState(false);
@@ -86,6 +87,7 @@ export default function App() {
         {/* Content Section */}
         <main className="grow">
           <PricingSection onContactClick={() => setShowContact(true)} />
+          <PortfolioSection />
         </main>
 
         {/* Footer */}
