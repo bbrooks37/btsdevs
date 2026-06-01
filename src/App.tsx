@@ -18,7 +18,7 @@ export default function App() {
       {/* Contact Overlay */}
       {showContact && (
         <div 
-          className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm" 
+          className="fixed inset-0 z-100 flex items-center justify-center p-4 bg-black/40 backdrop-blur-sm" 
           onClick={() => setShowContact(false)}
         >
           <div 

@@ -1,12 +1,12 @@
 // src/components/PortfolioSection.tsx
 
 const projects = [
-  { name: "Cursive Trace Studio", img: "/cursive.png", link: "https://cursive-tracer-78ofucedt-brandon-brooks-projects-3d7b8471.vercel.app/" },
-  { name: "Recipe Grid", img: "/recipes.png", link: "https://receipe-grid-efn6zf72t-brandon-brooks-projects-3d7b8471.vercel.app/" },
   { name: "Ryley Design", img: "/rdc.png", link: "https://ryleydesigns.com/" },
-  { name: "ETF Investing", img: "/ETF.png", link: "https://etf-investing.netlify.app/" },
+  { name: "Brooks Balms", img: "/bb.png", link: "https://brooksbalms.netlify.app/" },
   { name: "Bible Kiosk", img: "/bible.png", link: "https://bible-kiosk.netlify.app/" },
-  { name: "Giphy Party Fun", img: "/giphy.png", link: "https://giphypartyfun.netlify.app/" },
+  { name: "Xavier Aviation", img: "/xa-db.png", link: "https://xa-db.netlify.app/" },
+  { name: "ETF Investing", img: "/ETF.png", link: "https://etf-investing.netlify.app/" },
+  { name: "Giphy Party Fun", img: "/giphy.png", link: "https://giphypartyfun.netlify.app/" }
 ];
 
 export default function PortfolioSection() {
