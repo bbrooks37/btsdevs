@@ -85,7 +85,7 @@ export default function App() {
 
         {/* Content Section */}
         <main className="grow">
-          <PricingSection />
+          <PricingSection onContactClick={() => setShowContact(true)} />
         </main>
 
         {/* Footer */}

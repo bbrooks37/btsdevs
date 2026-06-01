@@ -2,7 +2,11 @@
 import { packages } from '../data/pricing';
 import type { PricingPackage } from '../data/pricing';
 
-export default function PricingSection() {
+interface PricingSectionProps {
+  onContactClick: () => void;
+}
+
+export default function PricingSection({ onContactClick }: PricingSectionProps) {
   return (
     <section className="bg-transparent py-20 px-6 sm:px-12 lg:px-24" id="services">
       <div className="max-w-7xl mx-auto">
@@ -69,6 +73,7 @@ export default function PricingSection() {
 
               {/* Action Button */}
               <button 
+                onClick={onContactClick}
                 className={`mt-8 w-full py-3 px-4 rounded-xl font-semibold text-sm transition-colors cursor-pointer ${
                   pkg.isPopular
                     ? 'bg-cyan-500 text-white hover:bg-cyan-600 shadow-sm'
@@ -80,7 +85,6 @@ export default function PricingSection() {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );
