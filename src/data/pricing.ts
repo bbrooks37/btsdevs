@@ -12,7 +12,7 @@ export interface PricingPackage {
 export const packages: PricingPackage[] = [
   {
     name: "The Essential Website",
-    price: "$199",
+    price: "$399",
     type: "one-time",
     description: "Professional single-page online presence",
     features: [
